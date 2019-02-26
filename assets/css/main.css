@@ -25,6 +25,7 @@ a {
   margin-right: 40px;
   border-radius: 4px;
   color: #ffff;
+  font-size:13px;
 }
 
 #header-text-container {
@@ -76,6 +77,19 @@ label {
   display: block;
 }
 
+#label-text{
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#tel-note{
+    font-size: 10px;
+    color: #444;
+    font-family: "Nunito", sans-serif;
+}
+
 input {
   display: block;
   border-radius: 3px;
@@ -92,7 +106,7 @@ input {
 nav ul {
   display: flex;
   list-style: none;
-  padding-left: 40%;
+
 }
 
 nav ul li {
@@ -121,6 +135,9 @@ nav {
 
 #form-header {
   text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: #4C4C4C;
+  font-size: 24px;
 }
 
 #form-note {
@@ -135,9 +152,13 @@ nav {
 
 #submit-button {
   background: #0077c5;
+  font-family: "Nunito", sans-serif;
   border: #0077c5;
   border-radius: 4px;
   color: #ffff;
+  font-size:1.125em;
+  width: 318px;
+  height: 44px;
 }
 
 #captcha {
@@ -181,8 +202,26 @@ a {
 
 #lock {
   position: relative;
+  top: 27px;
+  width: 13px;
+  height: 16px;
+  left: 70px;
+}
+
+#top-lock{
+    position: relative;
   top: 30px;
   width: 13px;
   height: 16px;
-  left: 20px;
+  left: 30px;
+}
+
+#form-title{
+   display: block;
+   margin-top:20px;
+}
+
+#form-description{
+    color: #4C4C4C;
+    font-size: 14px;
 }
