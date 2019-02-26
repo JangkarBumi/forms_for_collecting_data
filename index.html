@@ -19,42 +19,50 @@
   </head>
   <body>
     <div id="header">
-      <button id="header-button">Sign in</button>
-      <p id="header-text">Already have an intuit account></p>
+    
+      <div id="header-text-container">
+      <p id="header-text">Already have an intuit account?</p>
+
       <a id="header-link" href="index.html">I forgot my User ID or Password</a>
     </div>
-    <div id="form-container"></div>
+      <button id="header-button">Sign in</button>
+    </div>
+
+    <div id="form-container">
     <a id="logo-link"><img src="assets/images/logo.png" alt=""/></a>
     <fieldset id="form-field">
       <h3>One Account.</h3>
       <h3>Everything Intuit.</h3>
-      <p>Create an account for all of Intuit's products including Mint. <span id="smaller-note"><a>Learn more</a></span></p>
+      <p>Create an account for all of Intuit's products including Mint. <span id="smaller-note"><a href="index.html">Learn more</a></span></p>
       <form>
-        <label>
-          Email address
-          <input type="email" name="email">
+        <label>  
+          <p id="label-text">Email address</p>
+          <input type="email" name="email"><br/>
         </label>
         <label>
-          Phone (recommended)
+          <p id="label-text">Phone (recommended)</p>
           <input type="tel" name="telephone">
           <p id="tel-note">Standard call, messaging or data rates may apply.</p>
         </label>
-        <label>
-          Password
-          <input type="password" name="password">
+        <label> 
+          <p id="label-text">Password</p>
+          <input type="password" name="password"><br/>
         </label>
-        <input type="submit" name="submit" value="Create Account">
+        <input id="submit-button" type="submit" name="submit" value="Create Account">
       </form>
+      <p id="form-note">
+        By clicking Create Account, you agree to our
+        <a>License Agreement</a> 
+        and have read and acknowledge our 
+        <a>Privacy Statement</a>.
+      </p>
+      <div id="container-footer">
+        <p id="captcha">Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.</p>
+      </div>
     </fieldset>
-    <p id="form-note">
-      By clicking Create Account, you agree to our
-      <a>License Agreement</a> 
-      and have read and acknowledge our 
-      <a>Privacy Statement</a>.
-    </p>
-    <div id="container-footer">
-      <p>Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.</p>
-    </div>
+  </div>
+
+    
   </div>
     <div id="footer">
       <div id="footer-nav">
