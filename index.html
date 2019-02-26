@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Intuit landing page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       type="text/css"
@@ -20,66 +23,86 @@
   </head>
   <body>
     <div id="header">
-    
       <div id="header-text-container">
-      <p id="header-text">Already have an intuit account?</p>
+        <p id="header-text">Already have an intuit account?</p>
 
-      <a id="header-link" href="index.html">I forgot my User ID or Password</a>
-    </div>
-    <img id="top-lock" src="assets/images/lock.png" alt="">
+        <a id="header-link" href="index.html"
+          >I forgot my User ID or Password</a
+        >
+      </div>
+      <img id="top-lock" src="assets/images/lock.png" alt="" />
       <button id="header-button">Sign in</button>
     </div>
 
     <div id="form-container">
-    <a id="logo-link"><img src="assets/images/intuit_logo.png" alt=""/></a>
+      <a id="logo-link"><img src="assets/images/intuit_logo.png" alt=""/></a>
 
-    <div id="logo-container">
-      <a id="logo-link"><img id="svg-logo"  src="assets/images/mint.svg" alt=""/></a>
-      <a id="logo-text"><img  src="assets/images/mint-text.svg" alt=""/></a>
-      <a id="logo-link"><img  id="svg-logo"src="assets/images/quickbooks@2x.svg" alt=""/></a>
-      <a id="logo-text"><img src="assets/images/quick-books-text.svg" alt=""/></a>
-      <a id="logo-link"><img  id="svg-logo"src="assets/images/tt.svg" alt=""/></a>
-      <a id="logo-text"><img src="assets/images/tt-text.svg" alt=""/></a>
+      <div id="logo-container">
+        <a id="logo-link"
+          ><img id="svg-logo" src="assets/images/mint.svg" alt=""
+        /></a>
+        <a id="logo-text"><img src="assets/images/mint-text.svg" alt=""/></a>
+        <a id="logo-link"
+          ><img id="svg-logo" src="assets/images/quickbooks@2x.svg" alt=""
+        /></a>
+        <a id="logo-text"
+          ><img src="assets/images/quick-books-text.svg" alt=""
+        /></a>
+        <a id="logo-link"
+          ><img id="svg-logo" src="assets/images/tt.svg" alt=""
+        /></a>
+        <a id="logo-text"><img src="assets/images/tt-text.svg" alt=""/></a>
+      </div>
+
+      <form>
+        <fieldset id="form-field">
+          <div id="form-header">
+            <span id="form-title">One Account.</span>
+            <span>Everything Intuit.</span>
+            <p id="form-description">
+              Create an account for all of Intuit's products including Mint.
+              <span id="smaller-note"><a href="index.html">Learn more</a></span>
+            </p>
+          </div>
+          <label>
+            <p id="label-text">Email address</p>
+            <input type="email" name="email" /><br />
+          </label>
+          <label>
+            <p id="label-text">Phone (recommended)</p>
+            <input type="tel" name="telephone" />
+            <p id="tel-note">
+              Standard call, messaging or data rates may apply.
+            </p>
+          </label>
+          <label>
+            <p id="label-text">Password</p>
+            <input type="password" name="password" /><br />
+          </label>
+          <img id="lock" src="assets/images/lock.png" alt="" />
+          <input
+            id="submit-button"
+            type="submit"
+            name="submit"
+            value="Create Account"
+          />
+          <p id="form-note">
+            By clicking Create Account, you agree to our
+            <a>License Agreement</a>
+            and have read and acknowledge our
+            <a>Privacy Statement</a>.
+          </p>
+        </fieldset>
+        <div id="container-footer">
+          <p id="captcha">
+            Invisible reCAPTCHA by Google
+            <a href="privacy.html">Privacy Policy</a> and
+            <a href="terms.html">Terms of Use</a>.
+          </p>
+        </div>
+      </form>
     </div>
-  </div>
-    <form>
-    <fieldset id="form-field">
-      <div id="form-header">
-        <span id="form-title">One Account.</span>
-        <span>Everything Intuit.</span>
-        <p id="form-description">Create an account for all of Intuit's products including Mint. <span id="smaller-note"><a href="index.html">Learn more</a></span></p>
-      </div>
-        <label>  
-          <p id="label-text">Email address</p>
-          <input type="email" name="email"><br/>
-        </label>
-        <label>
-          <p id="label-text">Phone (recommended)</p>
-          <input type="tel" name="telephone">
-          <p id="tel-note">Standard call, messaging or data rates may apply.</p>
-        </label>
-        <label> 
-          <p id="label-text">Password</p>
-          <input type="password" name="password"><br/>
-        </label>
-        <img id="lock" src="assets/images/lock.png" alt="">
-        <input id="submit-button" type="submit" name="submit" value="Create Account">
-      <p id="form-note">
-        By clicking Create Account, you agree to our
-        <a>License Agreement</a> 
-        and have read and acknowledge our 
-        <a>Privacy Statement</a>.
-      </p>
-  
-    </fieldset>
-    <div id="container-footer">
-        <p id="captcha">Invisible reCAPTCHA by Google <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.</p>
-      </div>
-  </form>
-  </div>
 
-    
-  </div>
     <div id="footer">
       <div id="footer-nav">
         <nav>
