@@ -29,7 +29,7 @@ a {
 }
 
 #header-text-container {
-  width: 300px;
+  width: 185px;
 }
 
 #header-text {
@@ -41,7 +41,7 @@ a {
 #header-link {
   font-family: "Nunito", sans-serif;
   font-size: 12px;
-  margin-left: 110px;
+  margin-left: 10px;
 }
 
 #header {
@@ -75,6 +75,8 @@ form {
 
 label {
   display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
 }
 
 #label-text {
@@ -124,6 +126,7 @@ nav {
 }
 
 #footer-text {
+  display: block;
   width: 709px;
   height: 34px;
   margin: 0 auto;
@@ -188,11 +191,11 @@ nav {
   margin: 0 auto;
 }
 
-#logo-text {
+.logo-text {
   margin-right: 5px;
 }
 
-#svg-logo {
+.svg-logo {
   width: 23px;
   height: 23px;
 }
